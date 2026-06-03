@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Compiled TypeScript output
+dist/
+build/
+
+# Environment variables — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Auto-generated config — created on first run, may contain local IPs
+Backend/settings.json
+
+# Logs
+*.log
+app.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vue.js / Vite build output
+frontend/dist/
+
+# Docker volumes
+data/
+
+# Coverage
+coverage/
